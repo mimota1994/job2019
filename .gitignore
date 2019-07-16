@@ -1,5 +1,5 @@
 # Built application files and Maven
-target/
+compiler/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
