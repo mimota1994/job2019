@@ -1,4 +1,4 @@
-package main.school2019;
+package main.school2019.wangyi;
 
 
 import java.io.BufferedReader;
