@@ -1,4 +1,4 @@
-package main.school2019Test.mogujie;
+package main.school2019Test.weipinhui;
 
 import java.util.Scanner;
 
