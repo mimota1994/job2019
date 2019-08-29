@@ -20,7 +20,7 @@ import java.util.Stack;
  * dpf,利用栈保存路径
 
  */
-public class Main207 {
+public class Solution_207 {
 
     public static void main(String[] args) {
         int numC = 2;
