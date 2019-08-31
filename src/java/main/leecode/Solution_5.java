@@ -4,7 +4,7 @@ public class Solution_5 {
 
     public static void main(String[] args) {
         Solution_5 s= new Solution_5();
-        System.out.println(s.longestPalindrome("ccc"));
+//        System.out.println(s.longestPalindrome("ccc"));
     }
 
     public String longestPalindrome(String s) {
@@ -39,26 +39,6 @@ public class Solution_5 {
         return maxStr;
     }
 
-    public int myAtoi(String str) {
 
-        char head = str.charAt(0);
-        int result = 0;
-        if(head == '-' || head == '+' || (head - '0' >= 0 && head - '0' <= 9)){
-            int i = 0;
-            if(head == '-'|| head == '+'){
-                i ++;
-            }
-            for(;i < str.length(); i++){
-                if(str.charAt(i) - '0' >= 0 && str.charAt(i) - '0' <= 9){
-                    result = result * 10 + str.charAt(i) - '0';
-                }
-            }
-
-        }else{
-            return 0;
-        }
-
-        return 1;
-    }
 
 }
