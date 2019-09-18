@@ -62,6 +62,11 @@ public class CombineSum {
         return dp[target];
     }
 
+
+    public static void main(String[] args) {
+
+    }
+
     /**
      * 对于一个不重复的数组，给定一个值，找到所有可能的组成该值的个数，数组中的元素可以重复使用
      * solution1:
@@ -74,6 +79,7 @@ public class CombineSum {
      * @param target
      * @return
      */
+
     public static int combinationSum5(int[] nums, int target){
         int[] dp = new int[target + 1];
         dp[0] = 1;
